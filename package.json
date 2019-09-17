@@ -1,0 +1,16 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.8"
+	},
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"framer": {
+		"id": "2f996b1a-f0eb-4b9b-96e9-69ee19d9d702"
+	},
+	"author": "Ismael Martínez",
+	"dependencies": {}
+}
