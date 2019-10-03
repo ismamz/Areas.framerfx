@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Frame, addPropertyControls, ControlType } from "framer"
+import styled from "@emotion/styled"
 
 /**
  * Convert an integer to a letter
@@ -123,22 +124,20 @@ export function Areas(props) {
         return content
     }
 
-    return (
-        <div
-            style={{
-                width: props.width,
-                height: props.height,
-                display: "grid",
-                gridTemplateColumns: `repeat(${getColumns()}, 1fr)`,
-                gridTemplateRows: `repeat(${props.rows.length}, 1fr)`,
-                gridTemplateAreas: props.rows.map(r => `"${r}"`).join(" "),
-                rowGap: props.rowGap,
-                columnGap: props.columnGap,
-            }}
-        >
-            {array.length ? array : empty()}
-        </div>
-    )
+    const columns = getColumns()
+
+    const Container = styled("div")({
+        width: props.width,
+        height: props.height,
+        display: "grid",
+        gridTemplateColumns: `repeat(${columns}, 1fr)`,
+        gridTemplateRows: `repeat(${props.rows.length}, 1fr)`,
+        gridTemplateAreas: props.rows.map(r => `"${r}"`).join(" "),
+        rowGap: props.rowGap,
+        columnGap: props.columnGap,
+    })
+
+    return <Container>{array.length ? array : empty()}</Container>
 }
 
 Areas.defaultProps = {

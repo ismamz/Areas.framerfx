@@ -21,6 +21,10 @@ Each cell will cover the total space of an area and the content will be adjusted
 
 ## Changelog
 
+#### v1.1.0
+
+- Add [emotion](https://emotion.sh/docs/@emotion/styled) to fix re-render when gap props changes
+
 #### v1.0.0
 
 - Initial release

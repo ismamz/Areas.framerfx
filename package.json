@@ -9,8 +9,14 @@
 		"react": "^16.8"
 	},
 	"framer": {
-		"id": "2f996b1a-f0eb-4b9b-96e9-69ee19d9d702"
+		"id": "2f996b1a-f0eb-4b9b-96e9-69ee19d9d702",
+		"displayName": "Areas"
 	},
 	"author": "Ismael Martínez",
-	"dependencies": {}
+	"dependencies": {
+		"@emotion/core": "^10.0.20",
+		"@emotion/styled": "^10.0.17"
+	},
+	"name": "@framer/ismael.areas",
+	"version": "1.1.0"
 }

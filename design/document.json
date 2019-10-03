@@ -14,16 +14,16 @@
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
-            "bottom" : 52,
-            "centerAnchorX" : 0.50047938638542666,
-            "centerAnchorY" : 0.50071022727272729,
+            "bottom" : 69,
+            "centerAnchorX" : 0.48801534036433364,
+            "centerAnchorY" : 0.48863636363636365,
             "children" : [
 
             ],
             "clip" : true,
             "codeComponentIdentifier" : ".\/Areas.tsx_Areas",
             "codeComponentProps" : {
-              "columnGap" : 10,
+              "columnGap" : 20,
               "frames" : [
                 {
                   "enabled" : true,
@@ -52,8 +52,8 @@
                 }
               ],
               "names" : false,
-              "radius" : 0,
-              "rowGap" : 10,
+              "radius" : 10,
+              "rowGap" : 20,
               "rows" : [
                 {
                   "enabled" : true,
@@ -85,7 +85,7 @@
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
             "fillType" : "color",
-            "height" : 599,
+            "height" : 582,
             "heightType" : 0,
             "id" : "pBLcH60sy",
             "intrinsicHeight" : null,
@@ -104,11 +104,11 @@
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
-            "right" : 46,
+            "right" : 72,
             "rotation" : 0,
             "top" : 53,
             "visible" : true,
-            "width" : 950,
+            "width" : 924,
             "widthType" : 0
           }
         ],
